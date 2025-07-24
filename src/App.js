@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function App() {
-  const [user, setUser] = useState({ id: 1, name: "Juan Profesional" });
   const [services, setServices] = useState([]);
   const [newServiceName, setNewServiceName] = useState("");
   const [newServiceDuration, setNewServiceDuration] = useState("");
